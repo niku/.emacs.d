@@ -1,0 +1,5 @@
+(defun elixir-mode-hooks ()
+  (define-key elixir-mode-map (kbd "C-9") 'toggle-buffer)
+  (setq toggle-mappings '(("lib/\\(.*\\).ex" . "test/\\1_test.exs") ("test/\\(.*\\)_test.exs" . "lib/\\1.ex") ("\\([^/]*\\).ex" . "\\1_test.exs") ("\\([^/]*\\)_test.exs" . "\\1.ex")))
+  )
+(add-hook 'elixir-mode-hook 'elixir-mode-hooks)

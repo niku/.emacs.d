@@ -1,0 +1,14 @@
+*.elc
+.cask
+ac-comphist.dat
+ac-dict/motion-mode
+auto-install
+auto-save-list
+elisp
+elpa
+gpgs
+local
+tutorial
+url
+var
+tramp
