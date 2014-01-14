@@ -2,10 +2,9 @@
 
 (defvar installing-package-list
   '(
-    l
+    ace-jump-mode
     all-ext
     ansi
-    archives
     auto-async-byte-compile
     auto-complete
     auto-install
