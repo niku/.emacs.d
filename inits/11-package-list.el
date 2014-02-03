@@ -52,6 +52,7 @@
     helm-ls-git
     helm-migemo
     helm-themes
+    httprepl
     inf-ruby
     inflections
     init-loader
