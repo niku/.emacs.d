@@ -65,6 +65,7 @@
     migemo
     mode-compile
     motion-mode
+    navi2ch
     open-junk-file
     org
     packed
