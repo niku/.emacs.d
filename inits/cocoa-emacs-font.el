@@ -6,3 +6,4 @@
                   nil
                   'append)
 (add-to-list 'default-frame-alist '(font . "fontset-menlokakugo"))
+(add-to-list 'default-frame-alist '(font . "ricty-18"))
