@@ -88,7 +88,6 @@
     scala-mode
     scala-mode2
     scss-mode
-    solarized-theme
     twittering-mode
     w3m
     window-layout
