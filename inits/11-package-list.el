@@ -74,6 +74,7 @@
     php-mode
     popup
     popwin
+    quickrun
     recentf-ext
     repository-root
     request
