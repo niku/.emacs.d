@@ -43,11 +43,3 @@
   ;(define-key ruby-mode-map [f1] 'rurema:at-point)
   )
 (add-hook 'ruby-mode-hook 'ruby-mode-hooks-myrurema)
-
-;; Setting rbenv path
-;; (browse-url "http://marc-bowes.com/2012/03/10/rbenv-with-emacs.html")
-(let ((rbenv-shims-path (concat (getenv "HOME") "/.rbenv/shims"))
-      (rbenv-bin-path (concat (getenv "HOME") "/.rbenv/bin")))
-  (progn
-    (setenv "PATH" (mapconcat 'identity (list rbenv-shims-path rbenv-bin-path (getenv "PATH")) ":"))
-    (setq exec-path (append (list rbenv-shims-path rbenv-bin-path) exec-path))))
