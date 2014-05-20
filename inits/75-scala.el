@@ -1,4 +1,5 @@
 ; (browse-url "https://gist.github.com/tototoshi/653993")
+(require 'scala-mode2)
 (defun scala-mode-hooks-imenu ()
   (setq imenu-generic-expression
         '(

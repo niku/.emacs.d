@@ -20,9 +20,6 @@
 ;;     (electric-layout-mode t)))
 ;; (add-hook 'ruby-mode-hook 'ruby-mode-hooks-builtin-modes)
 
-;; disable magic comment
-(setq ruby-insert-encoding-magic-comment nil)
-
 ;; rspec-mode
 (require 'rspec-mode)
 (setq rspec-use-rvm t)
