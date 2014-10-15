@@ -13,6 +13,7 @@
 (depends-on "popwin")
 (depends-on "yasnippet")
 (depends-on "helm")
+(depends-on "solarized-theme")
 (depends-on "ruby-mode")
 (depends-on "ruby-end")
 (depends-on "ruby-block")
