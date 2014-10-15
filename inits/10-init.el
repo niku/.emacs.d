@@ -31,3 +31,8 @@
                 24-hours minutes
                 )))
 (display-time-mode t)
+
+;;; emacs server
+(require 'server)
+(unless (server-running-p)
+  (server-start))
