@@ -28,7 +28,6 @@
 (depends-on "auto-install")
 (depends-on "repository-root")
 (depends-on "migemo")
-(depends-on "grep-o-matic")
 (depends-on "ctags")
 (depends-on "milkode")
 (depends-on "recentf-ext")
