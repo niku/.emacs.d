@@ -24,6 +24,7 @@
 (depends-on "yaml-mode")
 (depends-on "yagist")
 (depends-on "scala-mode2")
+(depends-on "elixir-mode")
 
 (depends-on "auto-install")
 (depends-on "repository-root")
