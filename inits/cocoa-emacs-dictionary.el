@@ -1,3 +1,4 @@
+;; https://github.com/elim/dotemacs/blob/master/config/builtins/dictionary.el
 (defun dictionary-search (word)
   (browse-url
    (concat "dict:///" (url-hexify-string word))))
