@@ -13,4 +13,4 @@
   (dictionary-search
    (buffer-substring-no-properties beg end)))
 
-(global-set-key (kbd "s-d") 'dictionary-word)
+(global-set-key (kbd "C-t") 'dictionary-word)
