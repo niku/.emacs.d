@@ -19,7 +19,6 @@
 (depends-on "ruby-block")
 (depends-on "motion-mode")
 (depends-on "rspec-mode")
-(depends-on "repository-root")
 (depends-on "twittering-mode")
 (depends-on "yaml-mode")
 (depends-on "yagist")
@@ -28,7 +27,6 @@
 (depends-on "alchemist")
 
 (depends-on "auto-install")
-(depends-on "repository-root")
 (depends-on "migemo")
 (depends-on "ctags")
 (depends-on "milkode")
