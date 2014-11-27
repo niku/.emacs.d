@@ -8,7 +8,7 @@
 
 ;;; use init-loader
 (require 'init-loader)
-;; (setq init-loader-show-log-after-init nil)
+(setq init-loader-show-log-after-init 'error-only)
 (init-loader-load)
 
 ;; set env
