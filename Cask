@@ -49,6 +49,8 @@
 (depends-on "org")
 (depends-on "org-plus-contrib")
 
+(depends-on "markdown-mode")
+
 (depends-on "graphviz-dot-mode")
 (depends-on "wgrep")
 (depends-on "projectile")
